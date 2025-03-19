@@ -96,16 +96,3 @@
   @apply fixed inset-0 bg-background/95 backdrop-blur-md flex items-center justify-center;
 }
 
-.scrollbar-thumb-primary {
-  @apply bg-primary;
-}
-
-.scrollbar-track-secondary {
-  @apply bg-secondary;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .modal-content {
-    transition-duration: 0.1s !important;
-  }
-}
